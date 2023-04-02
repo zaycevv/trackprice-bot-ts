@@ -1,0 +1,22 @@
+{
+    "name": "trackprice-bot-ts",
+    "version": "1.0.0",
+    "main": "bot.js",
+    "repository": "https://github.com/hecudev/trackprice-bot-ts.git",
+    "author": "Alexander Zaitsev <hecudeveloper@gmail.com>",
+    "license": "MIT",
+    "scripts": {
+        "build": "tsc",
+        "start": "node ./dist/bot.js"
+    },
+    "devDependencies": {
+        "@types/dotenv": "^8.2.0",
+        "@types/node": "^18.15.11",
+        "prettier": "^2.8.7",
+        "typescript": "^5.0.3"
+    },
+    "dependencies": {
+        "dotenv": "^16.0.3",
+        "grammy": "^1.15.3"
+    }
+}
